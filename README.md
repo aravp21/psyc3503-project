@@ -1,2 +1,3 @@
-# psyc3503-project
-Swarm Intelligence Metaheuristic Optimization Algorithm Benchmarking
+## Exploration of Metaheuristic Swarm Intelligence Algorithms
+
+Implemented several popular swarm intelligence algorithm frameworks, such as particle swarm optimization (PSO), genetic algorithm (GA), firefly algorithm (FA), artificial bee colony optimization (ABC), and cuckoo search optimization (CSO). Placed particular emphasis on PSO in order to study the connection to the overarching concept of self-organization. Left all algorithms in their most basic form, using their best hyperparameters, as determined by literature, but setting the population size to 50 and maximum iteration count to 5,000 in order to facilitate more even comparisons between algorithms. Assessed optimization performance on five selected benchmark functions, measuring runtime, convergence time, and absolute error upon convergence as key metrics for each algorithm. Determined that PSO and most of the other algorithms struggle in high dimensional cases while ABC performs reasonably well in all cases at the cost of a longer runtime.
